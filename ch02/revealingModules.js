@@ -16,6 +16,7 @@ function printableMessage() {
         console.log(message);
     }
 
+    // Return an object used to reference the functions and data
     return {
         setMessage: setMessage,
         getMessage: getMessage,
